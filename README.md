@@ -37,6 +37,82 @@ yarn create nuxt-app <project-name>
 yarn create nuxt-app
 ```
 
+いくつかの質問に答えていきます。
+
 ```
 ? Project name
+```
+
+```
+? Project description
+```
+```
+? Author name
+```
+
+Yarnでもnpmでも好みで選びましょう。
+
+```
+? Choose the package manager (Use arrow keys)
+❯ Yarn
+  Npm
+```
+
+UIフレームワークは必要でなければNoneでいいでしょう。
+
+```
+? Choose UI framework (Use arrow keys)
+❯ None
+  Ant Design Vue
+  Bootstrap Vue
+  Buefy
+  Bulma
+  Element
+  Framevuerk
+  iView
+  Tachyons
+  Tailwind CSS
+  Vuetify.js
+```
+サーバーフレームワークも必要でなければNoneでいいでしょう。
+
+```
+? Choose custom server framework (Use arrow keys)
+❯ None (Recommended)
+  AdonisJs
+  Express
+  Fastify
+  Feathers
+  hapi
+  Koa
+  Micro
+```
+
+
+```
+? Choose Nuxt.js modules (Press <space> to select, <a> to toggle all, <i> to invert selection)
+❯◯ Axios
+ ◯ Progressive Web App (PWA) Support
+```
+
+```
+? Choose linting tools (Press <space> to select, <a> to toggle all, <i> to invert selection)
+❯◯ ESLint
+ ◯ Prettier
+ ◯ Lint staged files
+```
+
+```
+? Choose test framework (Use arrow keys)
+❯ None
+  Jest
+  AVA
+```
+```
+? Choose rendering mode (Use arrow keys)
+❯ Universal (SSR)
+  Single Page App
+```
+```
+❯◯ jsconfig.json (Recommended for VS Code)
 ```
