@@ -168,7 +168,7 @@ npm install --save-dev @nuxt/typescript-build
 Nuxt.jsをインストールするとプロジェクトのルートにnuxt.config.jsが作成されます。  
 ビルドモジュールの設定にインストールした `@nuxt/typescript-build` を追記します。
 
-```json
+```javascript
 
 export default {
   mode: 'universal',
