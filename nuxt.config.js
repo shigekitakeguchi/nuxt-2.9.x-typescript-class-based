@@ -18,7 +18,6 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
   /*
   ** Global CSS
   */
@@ -33,21 +32,13 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxt/typescript-build'
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {
-  },
   /*
   ** Build configuration
   */
