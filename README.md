@@ -283,12 +283,12 @@ Nuxt.jsでTypeScriptを使うためのコンパイラオプションです。
 このままでもTypeScriptは書けますがせっかくなのでClass-basedな書き方で書きましょう。  
 
 ```
-yarn add vue-property-decorator
+yarn add nuxt-property-decorator
 ```
 npmの場合
 
 ```
-npm install --save vue-property-decorator
+npm install --save nuxt-property-decorator
 ```
 
 pages/index.vueはもともとこういう記述ですね（script部分だけ抜き出してます）。
@@ -310,7 +310,7 @@ index.vueのclass名は何でも大丈夫なようですね。class名なので�
 
 ```html
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component({
   components: {
@@ -325,7 +325,7 @@ components/Logo.vueにはもともとscriptの記述はないですが以下を�
 
 ```html
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component
 export default class Logo extends Vue {}
